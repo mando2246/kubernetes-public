@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: hwankuy/nginxweb:v2.0
+        image: hwankuy/mynginx:v2.0
         ports:
         - containerPort: 80
         resources:
